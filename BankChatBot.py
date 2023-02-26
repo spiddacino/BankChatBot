@@ -8,8 +8,8 @@ class BankAccount():
         self.amount_type = (int, float, complex)
         self.status = "active"  # defining the status variable
         self.location = "London"  # defining the location variable e.g "London"
-        # defining the weather api_key variable
-        self.api_key = "435de105baaee5eceab81c4d860d197f"
+        # defining the weather api_key variable: Create an account on https://openweathermap.org/ and get your API key
+        self.api_key = "xxxxxxxxxxxxxxx"
 
     def deposit(self, amount):
         #check if account is active
